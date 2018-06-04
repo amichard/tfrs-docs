@@ -94,12 +94,12 @@ $ python manage.py runserver
 
 Load core fixtures
 ```
-$ python manage.py loaddata credit_trade_statuses credit_trade_types organization_actions_types organization_government organization_balance_gov organization_statuses organization_types
+$ python manage.py loaddata credit_trade_statuses credit_trade_types organization_actions_types organization_government organization_balance_gov organization_statuses organization_types roles permissions roles_permissions
 ```
 
 Load test data fixtures
 ```
-$ python manage.py loaddata test_credit_trades.json test_organization_fuel_suppliers.json test_organization_balances.json test_users.json
+$ python manage.py loaddata test_credit_trades test_organization_fuel_suppliers test_organization_balances test_users users_roles
 ```
 
 ## Contributing
